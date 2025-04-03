@@ -1,1 +1,7 @@
 export * from './components/UiButton/UiButton'
+export * from './components/UiCard/UiCard'
+export * from './components/UiFooter/UiFooter'
+export * from './components/UiForm/UiForm'
+export * from './components/UiInput/UiInput'
+export * from './components/UiHeader/UiHeader'
+export * from './components/UiPage/UiPage'

@@ -1,0 +1,60 @@
+.ui-card {
+  border-radius: 8px;
+  background: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e0e0e0;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.ui-card.hoverable:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+}
+
+.ui-card .card-header {
+  padding: 16px;
+  border-bottom: 1px solid #f0f0f0;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.ui-card .card-header h3 {
+  margin: 0;
+  color: #3e4347;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.ui-card .card-header .header-icon {
+  display: flex;
+  align-items: center;
+}
+
+.ui-card .card-header .header-icon img {
+  width: 24px;
+  height: 24px;
+}
+
+.ui-card .card-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.ui-card .card-content {
+  padding: 16px;
+  flex-grow: 1;
+}
+
+.ui-card .card-actions {
+  padding: 12px 16px;
+  border-top: 1px solid #f0f0f0;
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+}
