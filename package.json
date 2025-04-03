@@ -1,0 +1,40 @@
+{
+  "name": "@mlada/ui-lib-react",
+  "version": "0.0.1",
+  "description": "Ui kit library React",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],  
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack serve --mode development",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm run build"
+  },
+  "author": "Ranneva Mlada",
+  "license": "SEE LICENSE IN LICENSE",
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.10",
+    "@babel/preset-env": "^7.26.9",
+    "@babel/preset-react": "^7.26.3",
+    "@babel/preset-typescript": "^7.27.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.1",
+    "babel-loader": "^10.0.0",
+    "css-loader": "^7.1.2",
+    "html-webpack-plugin": "^5.6.3",
+    "style-loader": "^4.0.0",
+    "typescript": "^5.8.2",
+    "webpack": "^5.98.0",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.1"
+  }
+}
